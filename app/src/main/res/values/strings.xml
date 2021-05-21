@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="heading">Welcome to Tic-Tac-Toe</string>
+    <string name="grid">our main grid</string>
+    <string name="status">Tap to play</string>
+    <string name="button">RESTART</string>
+    <string name="welcome">WELCOME TO TIC-TAC-TOE</string>
+    <string name="single">Single Player</string>
+    <string name="multi">Multi Player</string>
+    <string name="rules">Rules</string>
+    <string name="about">About</string>
+    <string name="quit">Exit</string>
+    <string name="button1">SKIP</string>
+    <string name="player1">Player 1 Name :</string>
+    <string name="player2">Player 2 Name :</string>
+    <string name="p1_name">Name</string>
+    <string name="p2_name">Name</string>
+    <string name="button2">START</string>
+</resources>

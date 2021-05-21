@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="730dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="370dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="RULES"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="1. In Single Player mode, one player will play with computer. In this mode first chance will be yours."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="2. In Multi Player mode, two players will play against each other."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="3. Tap on grid to place your mark on the position."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="4. At the bottom of screen, it would be shown whose chance is going on currently."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="5. If no one wins and there is a draw in the game, it will show as Game Over."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text='6. To start a new game during an ongoing game, press the "RESTART" button shown at the bottom.'
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
