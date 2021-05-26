@@ -36,7 +36,7 @@
             android:layout_height="139dp"
             android:layout_gravity="center|center_horizontal|center_vertical"
             android:gravity="center|center_horizontal|center_vertical"
-            android:text="Created by Tanishq Kakkar.\nVersion 1.0.1\n Copyright © 2021-2030 Gaming Inc.\nAll rights reserved."
+            android:text="Created by Tanishq Kakkar.\nVersion 1.0.1"
             android:textColor="@color/black"
             android:textSize="18sp" />
     </LinearLayout>
